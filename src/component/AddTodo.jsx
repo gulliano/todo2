@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import styles from '../styles'
 import firestore from '@react-native-firebase/firestore';
 import {firebase} from '@react-native-firebase/firestore';
+import { Divider } from 'react-native-paper';
+
 
 const AddTodo = () => {
 
@@ -22,8 +24,11 @@ const AddTodo = () => {
    }
 
   return (
-    <View>
+    <View style={styles.addContainer}>
+
+      <Text style={styles.titleAdd} > THE TODO </Text>
       <TextInput 
+        placeholder={"Ajouter une tache"}
         style ={styles.addInput}
         value={task}
         onChangeText={text=>setTask(text)}
@@ -32,6 +37,8 @@ const AddTodo = () => {
       
       
       />
+
+
     </View>
   )
 }
