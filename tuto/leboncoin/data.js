@@ -186,3 +186,44 @@ export const products = [
     ],
   },
 ];
+
+
+export const popular = [{"id":51,"title":"half sleeves T shirts","description":"Many store is creating new designs and trend every month and every year. Daraz.pk have a beautiful range of men fashion brands","price":23,"discountPercentage":12.76,"rating":4.26,"stock":132,"brand":"Vintage Apparel","category":"mens-shirts","thumbnail":"https://i.dummyjson.com/data/products/51/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/51/1.png","https://i.dummyjson.com/data/products/51/2.jpg","https://i.dummyjson.com/data/products/51/3.jpg","https://i.dummyjson.com/data/products/51/thumbnail.jpg"]},
+                        {"id":52,"title":"FREE FIRE T Shirt","description":"quality and professional print - It doesn't just look high quality, it is high quality.","price":10,"discountPercentage":14.72,"rating":4.52,"stock":128,"brand":"FREE FIRE","category":"mens-shirts","thumbnail":"https://i.dummyjson.com/data/products/52/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/52/1.png","https://i.dummyjson.com/data/products/52/2.png","https://i.dummyjson.com/data/products/52/3.jpg","https://i.dummyjson.com/data/products/52/4.jpg","https://i.dummyjson.com/data/products/52/thumbnail.jpg"]},
+                        {"id":53,"title":"printed high quality T shirts","description":"Brand: vintage Apparel ,Export quality","price":35,"discountPercentage":7.54,"rating":4.89,"stock":6,"brand":"Vintage Apparel","category":"mens-shirts","thumbnail":"https://i.dummyjson.com/data/products/53/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/53/1.webp","https://i.dummyjson.com/data/products/53/2.jpg","https://i.dummyjson.com/data/products/53/3.jpg","https://i.dummyjson.com/data/products/53/4.jpg","https://i.dummyjson.com/data/products/53/thumbnail.jpg"]},
+                        {"id":54,"title":"Pubg Printed Graphic T-Shirt","description":"Product Description Features: 100% Ultra soft Polyester Jersey. Vibrant & colorful printing on front. Feels soft as cotton without ever cracking","price":46,"discountPercentage":16.44,"rating":4.62,"stock":136,"brand":"The Warehouse","category":"mens-shirts","thumbnail":"https://i.dummyjson.com/data/products/54/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/54/1.jpg","https://i.dummyjson.com/data/products/54/2.jpg","https://i.dummyjson.com/data/products/54/3.jpg","https://i.dummyjson.com/data/products/54/4.jpg","https://i.dummyjson.com/data/products/54/thumbnail.jpg"]},
+                        {"id":55,"title":"Money Heist Printed Summer T Shirts","description":"Fabric Jercy, Size: M & L Wear Stylish Dual Stiched","price":66,"discountPercentage":15.97,"rating":4.9,"stock":122,"brand":"The Warehouse","category":"mens-shirts","thumbnail":"https://i.dummyjson.com/data/products/55/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/55/1.jpg","https://i.dummyjson.com/data/products/55/2.webp","https://i.dummyjson.com/data/products/55/3.jpg","https://i.dummyjson.com/data/products/55/4.jpg","https://i.dummyjson.com/data/products/55/thumbnail.jpg"]}] ;
+
+
+
+export const categories = [
+  {id:1 , name : "All" },
+  {id:2 , name :"Laptops" },
+  {id:3 , name :"Fragrances" },
+  {id:4 , name : "Skincare" },
+  {id:5 , name : "Groceries" },
+  {id:6 , name : "Home decoration" },
+  {id:7 , name :"Furniture" },
+  {id:0 , name :"Tops" } ,
+]
+   
+
+export const singleProduct = {
+  id: 10,
+  title: 'HP Pavilion 15-DK1056WM',
+  description:
+    'HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10',
+  price: 1099,
+  discountPercentage: 6.18,
+  rating: 4.43,
+  stock: 89,
+  brand: 'HP Pavilion',
+  category: 'laptops',
+  thumbnail: 'https://i.dummyjson.com/data/products/10/thumbnail.jpeg',
+  images: [
+    'https://i.dummyjson.com/data/products/10/1.jpg',
+    'https://i.dummyjson.com/data/products/10/2.jpg',
+    'https://i.dummyjson.com/data/products/10/3.jpg',
+    'https://i.dummyjson.com/data/products/10/thumbnail.jpeg',
+  ],
+}
